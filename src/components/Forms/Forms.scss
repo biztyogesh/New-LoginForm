@@ -1,0 +1,30 @@
+@import "../../styles/core/core-variables";
+
+.text-sm {
+  font-size: 14px !important;
+}
+
+.form-button {
+  background-color: #f0622ef1 !important;
+  color: white !important;
+  margin-top: 10px !important;
+
+  &:hover {
+    background-color: $orange-color !important;
+  }
+}
+
+a {
+  color: #f0622ef1 !important;
+}
+
+.auth-header {
+  font-size: 48px;
+}
+
+.incorrect-message {
+  position: absolute;
+  font-size: 10px;
+  color: white;
+  margin: 2px 0 0 5px;
+}
