@@ -29,7 +29,7 @@ function LoginForm() {
 
   return (
     <div className="flex flex-column flex-justify-end width-100">
-      <div className="auth-header flex flex-align-center margin-b-6">Login Form.</div>
+      <div className="auth-header flex flex-align-center  margin-b-7">Login</div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="flex flex-column width-50">
           <div className="margin-b-3">

@@ -24,10 +24,10 @@ function SignupForm() {
 
   return (
     <div className="flex flex-column flex-justify-end">
-      <div className="auth-header flex flex-align-center">Create new account.</div>
+      <div className="auth-header flex flex-align-center">Sign Up.</div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="flex flex-column flex-justify-between width-60">
-          <div className="flex flex-justify-between margin-t-2">
+          <div className="flex flex-justify-between margin-t-5">
             <AuthInput className="width-48" name="First Name" register={register} validation={validation} errors={errors} setValue={setValue} trigger={trigger} width={48} />
             <AuthInput className="width-48" name="Last Name" register={register} validation={validation} errors={errors} setValue={setValue} trigger={trigger} width={48} />
           </div>
