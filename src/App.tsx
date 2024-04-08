@@ -10,20 +10,20 @@ import ResponsiveCards from "./components/ResponsiveCards/ResponsiveCards";
 
 function App() {
   return (
-    <ResponsiveCards/>
+    // <ResponsiveCards/>
     // <Cards/>
  
-  //   <Routes>
-  //   <Route path="/" element={<Main />}>
-  //     <Route index element={<Navigate to={"/auth"} />} />
-  //     <Route path="auth" element={<Auth />}>
-  //       <Route index element={<Navigate to={"/auth/login"} />} />
-  //       <Route path="login" element={<LoginForm />} />
-  //       <Route path="signup" element={<SignupForm />} />
-  //     </Route>
-  //     <Route path="dashboard" element={<Dashboard />} />
-  //   </Route>
-  // </Routes>
+    <Routes>
+    <Route path="/" element={<Main />}>
+      <Route index element={<Navigate to={"/auth"} />} />
+      <Route path="auth" element={<Auth />}>
+        <Route index element={<Navigate to={"/auth/login"} />} />
+        <Route path="login" element={<LoginForm />} />
+        <Route path="signup" element={<SignupForm />} />
+      </Route>
+      <Route path="dashboard" element={<Dashboard />} />
+    </Route>
+  </Routes>
 );
 }
 export default App;

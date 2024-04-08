@@ -1,24 +1,13 @@
 .auth-container {
   margin: 0 auto;
-  color: rgb(161, 162, 218);
-  // background: linear-gradient(
-  //   90deg,
-  //   #4d488c 44.92%,
-  //   #4d488ccc 100%
-  // );
-  background: linear-gradient(135deg, #9ae39b85 60%, aqua);
-  // background-image: url("../public/background.jpg");
-  // background-size: cover;
+  color: white;
+  background: linear-gradient(90deg, #4d488c 44.92%, rgba(77, 72, 140, 0.8) 100%);
+  border-radius: 50px;
+  // background-image: url("../../../../public/BackgroundImage.svg");
+  // background-repeat: no-repeat;
   // background-position: center;
-
-  border-radius: 30px;
   max-width: 900px;
   max-height: 500px;
-  background-size: cover !important;
-  background-position: center !important;
-  border: 2px rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur (30px);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 
   .title-container {
     margin-top: 5%;
@@ -37,3 +26,13 @@
 #bot {
   color: white;
 }
+
+// For Large Displays
+// @media screen and (min-width: 1281px) {
+//   .auth-container {
+//     .title-container {
+//       margin-top: 20rem;
+//       margin-left: 7rem;
+//     }
+//   }
+// }
